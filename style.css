@@ -387,3 +387,58 @@ header {
 
 
 }
+.last_section{
+    display: flex;
+    justify-content: center;
+    margin: 204px 0 0 0;
+}
+.email_form{
+    width: 81.73%;
+    height: 312px;
+    background-color: #FF7A50;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 72.45px;
+}
+.subscribe_wrapper > h2{
+    font-family: Rubik;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 47.4px;
+    color: white;
+}
+.forms_wrapper{
+    width: 72%;
+    height: 78px;
+    background-color: white;
+    border-radius: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 9.75px 0 43.25px;
+}
+.forms_wrapper>input {
+    width: 207px;
+    height: 29px;
+    border: none;
+    outline: none;
+    font-family: Rubik;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.forms_wrapper>button {
+    width: 191px;
+    height: 58.5px;
+    background-color: #FF7A50;
+    border-radius: 30px;
+    border: none;
+    font-family: Rubik;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    color: white;
+}
